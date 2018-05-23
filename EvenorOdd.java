@@ -1,16 +1,16 @@
-import java.util.Scanner;
-
-class EvenorOdd
+import java.util.*;
+public class EvenorOdd
 {
-  public static void main(String args[])
-  {
-    int num;
-    System.out.println("Enter an Integer number:");
-    Scanner input = new Scanner(System.in);
-    num = input.nextInt()
-    if ( num % 2 == 0 )
-        System.out.println("Entered number is even");
-     else
-        System.out.println("Entered number is odd");
-  }
+public static void main(String [] args)
+{
+
+int product = 1;
+
+for ( int x = 5; x <= 20; x += 2)
+
+product *= x;
+
+System.out.printf("Product is %d\n", product);
+}
+
 }
