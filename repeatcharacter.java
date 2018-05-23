@@ -4,7 +4,7 @@ public class RepeatCharacter
 {
     public static void main(String[] args)
     {
-        char c = 'meenu';
+        char c = 'x';
         int length = 10;
 
        
