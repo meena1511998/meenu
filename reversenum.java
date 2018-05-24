@@ -1,22 +1,26 @@
-import java.util.Scanner;
- 
-class ReverseNum
+import java.util.*;
+public class ReverseNumber 
 {
-   public static void main(String args[])
-   {
-      int n, reverse = 0;
  
-      System.out.println("Enter a number to reverse");
-      Scanner in = new Scanner(System.in);
-      n = in.nextInt();
- 
-      while(n != 0)
-      {
-          reverse = reverse * 10;
-          reverse = reverse + n%10;
-          n = n/10;
-      }
- 
-      System.out.println("Reverse of the number is " + reverse);
-   }
+	public static void main(String[] args) 
+ {
+		
+		int number = 1234;
+		int reversedNumber = 0;
+		int temp = 0;
+		
+		while(number > 0){
+			
+			//use modulus operator to strip off the last digit
+			temp = number%10;
+			
+			//create the reversed number
+			reversedNumber = reversedNumber * 10 + temp;
+			number = number/10;
+			 
+		}
+		
+		//output the reversed number
+		System.out.println("Reversed Number is: " + reversedNumber);
+	}
 }
