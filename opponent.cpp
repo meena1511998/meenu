@@ -5,8 +5,8 @@ int main ()
     char *array[50],*p;
     char buf[1000];
     int i=0,j=0,temp;
-    printf("\nEnter the ninja number of kabali and opponent : ");
-    scanf("%[^\t]%*s",&buf);
+    cout<<"\nEnter the ninja number of kabali and opponent";
+    cin>>buf;
     p=strtok(buf," \n");
     while(p!=NULL)
     {
@@ -21,7 +21,7 @@ int main ()
      {
      	temp=-temp;
      }
-     printf("\n%d",temp);
+   cou<<"temp(n)";
     }
     return 0;
 }
