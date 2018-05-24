@@ -27,7 +27,7 @@ class multiple
 }
     public static void main(String[] args) 
     {
-    int num = 24;
+    int num = 6;
  
     if (isMultipleOf3(num) != 0) 
         System.out.println(num + 
