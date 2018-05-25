@@ -1,5 +1,5 @@
 importjava.util.*;
-class repeationnum
+class repeatingnum
 {
     int [] numbers = new int [5];
     Scanner inn = new Scanner(System.in);
